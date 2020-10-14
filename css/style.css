@@ -32,6 +32,29 @@ body{
     
 }
 
+/* input:not([type]), */
+input[type="text"]:not(.browser-default),
+textarea.materialize-textarea {
+    padding: 1rem;
+}
+
+.input-field >label { 
+    color: var(--color-dark-grey);
+    font-size: 1.5rem;
+  
+}
+
 .card-action{
     margin-top: 3rem;
+}
+
+.clear-tasks{
+    margin-top: 2rem;
+}
+
+.collection-item {
+    padding: 2rem !important;
+    border-radius: 1rem;
+    margin-top: .7rem !important;
+
 }
